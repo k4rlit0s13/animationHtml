@@ -1,0 +1,40 @@
+.link1 a, .link2 a{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.link1 a{
+    color: #FFFF;
+    background: #9ab8d2;
+    border: 1px solid #5380d2;
+
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+
+.link1:hover{
+    background-color: #5380d2;
+    color: #a8bfd2;
+}
+
+a.link2{
+    color: #9ca3a3;
+    background: #d4dbdb;
+    border: 2px solid #b3baba;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+
+
+a.link2:hover{
+    background-color: #9ca3a3;
+    color: #333;
+    border: 2px;
+    padding: 10px 3px;
+}
