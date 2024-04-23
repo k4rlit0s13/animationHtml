@@ -20,16 +20,19 @@
     left: 900px;
 
     animation-name: sol-animation;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-delay: 0s;
     animation-iteration-count: 10;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease;
     animation-direction: normal;
 }
 @keyframes sol-animation{
     0%{
         opacity: 60%;
         transform: rotate(360deg);
+    }
+    50%{
+        opacity: 40%;
     }
     100%{
         opacity: 70%;
@@ -44,10 +47,10 @@
     left: -900px;
 
     animation-name: nube;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-delay: 0s;
     animation-iteration-count: 10;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease;
     animation-direction: normal;
 }
 @keyframes nube{
@@ -64,7 +67,7 @@
         left: 500px;
     }
     100%{
-        top: -200px;
+        top: -500px;
         left: 800px;
     }
 }
