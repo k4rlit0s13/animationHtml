@@ -22,8 +22,8 @@
     animation-name: sol-animation;
     animation-duration: 30s;
     animation-delay: 0s;
-    animation-iteration-count: 10;
-    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
     animation-direction: normal;
 }
 @keyframes sol-animation{
@@ -52,7 +52,7 @@
     animation-name: nube;
     animation-duration: 16s;
     animation-delay: 0s;
-    animation-iteration-count: 10;
+    animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-direction: normal;
 }
@@ -112,3 +112,138 @@
     }
 }
 
+.flor{
+    width: 200px;
+    clip-path: inset(0 0 35% 0);
+    opacity: 0;
+    
+    position: absolute;
+    top: 600px;
+    left: 800px;
+
+    animation-name: flor;
+    animation-duration: 30s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes flor{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.flor1{
+    width: 200px;
+    clip-path: inset(0 0 35% 0);
+    opacity: 0;
+    
+    position: absolute;
+    top: 580px;
+    left: 700px;
+
+    animation-name: flor1;
+    animation-duration: 30s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes flor1{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.flor2{
+    width: 200px;
+    clip-path: inset(0 0 35% 0);
+    opacity: 0;
+    
+    position: absolute;
+    top: 570px;
+    left: 570px;
+
+    animation-name: flor2;
+    animation-duration: 30s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes flor2{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.flor3{
+    width: 150px;
+    clip-path: inset(0 0 35% 0);
+    opacity: 0;
+    
+    position: absolute;
+    top: 550px;
+    left: 750px;
+
+    animation-name: flor3;
+    animation-duration: 30s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes flor3{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.flor4{
+    width: 200px;
+    clip-path: inset(0 0 35% 0);
+    opacity: 0;
+    
+    position: absolute;
+    top: 550px;
+    left: 750px;
+
+    animation-name: flor4;
+    animation-duration: 30s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes flor4{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
