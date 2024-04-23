@@ -150,7 +150,7 @@
 
     animation-name: flor1;
     animation-duration: 30s;
-    animation-delay: 6s;
+    animation-delay: 6.2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-direction: normal;
@@ -177,7 +177,7 @@
 
     animation-name: flor2;
     animation-duration: 30s;
-    animation-delay: 6s;
+    animation-delay: 6.3s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-direction: normal;
@@ -204,7 +204,7 @@
 
     animation-name: flor3;
     animation-duration: 30s;
-    animation-delay: 6s;
+    animation-delay: 6.6s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-direction: normal;
@@ -227,11 +227,11 @@
     
     position: absolute;
     top: 550px;
-    left: 750px;
+    left: 650px;
 
     animation-name: flor4;
     animation-duration: 30s;
-    animation-delay: 6s;
+    animation-delay: 6.5s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-direction: normal;
@@ -247,3 +247,31 @@
         opacity: 100%;
     }
 }
+.flor5{
+    width: 150px;
+    clip-path: inset(0 0 35% 0);
+    opacity: 0;
+    
+    position: absolute;
+    top: 560px;
+    left: 850px;
+
+    animation-name: flor5;
+    animation-duration: 30s;
+    animation-delay: 6.20s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes flor5{
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
