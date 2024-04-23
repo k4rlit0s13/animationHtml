@@ -38,3 +38,14 @@ a.link2:hover{
     border: 2px solid #536a6a;
     padding: 10px 30px;
 }
+
+p.zoom{
+    font-size: 12px;
+    width: 300px;
+
+    transition: font-size 300ms linear 0s;
+}
+
+p.zoom:hover{
+    font-size: 16px;
+}
