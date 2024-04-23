@@ -9,6 +9,7 @@
 
 .fondo{
     width: 1920px;
+    height: auto;
 }
 
 
@@ -16,7 +17,7 @@
     width: 400px;
     
     position: absolute;
-    left: 800px;
+    left: 900px;
 
     animation-name: sol-animation;
     animation-duration: 30s;
@@ -36,8 +37,34 @@
 }
 
 .nube{
-    width: 10px;
+    width: 1000px;
     
     position: absolute;
-    left: 10px;
+    top: -200px;
+    left: -900px;
+
+    animation-name: nube;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes nube{
+    0%{
+        top: -200px;
+        left: -900px;
+    }
+    40%{
+        top: 200px;
+        left: 500px;
+    }
+    60%{
+        top: 200px;
+        left: 500px;
+    }
+    100%{
+        top: -200px;
+        left: 800px;
+    }
 }
