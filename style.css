@@ -49,3 +49,15 @@ p.zoom{
 p.zoom:hover{
     font-size: 16px;
 }
+
+div#simple{
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+
+    animation-name: simple-animation;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    
+}
