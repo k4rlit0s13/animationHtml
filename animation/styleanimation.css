@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.escenario {
+    position: absolute;
+    width: 100%;
+}
+.fondo {
+    position: absolute;
+}
+.sol {
+    position: absolute;
+
+}
+.nube {
+    position: absolute;
+
+}
+.flor {
+    position: absolute;
+
+}
+.lluvia {
+    position: absolute;
+    opacity: 2%;
+}
