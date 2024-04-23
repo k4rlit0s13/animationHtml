@@ -4,25 +4,17 @@
 }
 
 .escenario {
-    position: absolute;
-    width: 100%;
-}
-.fondo {
-    position: absolute;
-}
-.sol {
-    position: absolute;
 
 }
-.nube {
-    position: absolute;
 
+.fondo{
+    width: 1920px;
 }
-.flor {
+.sol{
+    width: 400px;
+    
     position: absolute;
+    left: 800px;
 
-}
-.lluvia {
-    position: absolute;
-    opacity: 2%;
+    animation-name: sol-animation;
 }
