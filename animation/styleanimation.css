@@ -282,7 +282,7 @@
 
 h1 {
     position: absolute;
-    top: 50px;
+    top: 20px;
     left: 50px;
     /* opacity: 0; */
     
@@ -290,8 +290,7 @@ h1 {
     
     font-size: 6rem;
     font-family: Lugra;
-    text-shadow: 0 0 10px 10px;
-    
+    text-shadow: 14px 9px 20px rgba(0, 0, 0, 0.546);
     
     animation-name: titulo;
     animation-duration: 10s;
