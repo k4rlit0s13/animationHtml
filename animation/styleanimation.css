@@ -28,14 +28,17 @@
 }
 @keyframes sol-animation{
     0%{
-        opacity: 60%;
+        opacity: 40%;
         transform: rotate(360deg);
     }
+    30%{
+        opacity: 50%;
+    }
     50%{
-        opacity: 40%;
+        opacity: 70%;
     }
     100%{
-        opacity: 70%;
+        opacity: 60%;
     }
 }
 
@@ -47,7 +50,7 @@
     left: -900px;
 
     animation-name: nube;
-    animation-duration: 20s;
+    animation-duration: 16s;
     animation-delay: 0s;
     animation-iteration-count: 10;
     animation-timing-function: ease;
@@ -71,3 +74,41 @@
         left: 800px;
     }
 }
+
+.lluvia{
+    width: 800px;
+    
+    position: absolute;
+    left: 600px;
+    top: 500px;
+    opacity: 0;
+
+
+    animation-name: lluvia;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes lluvia{
+    0%{
+        opacity: 10%;
+        left: 500px;
+    }
+    10%{
+        left: 600px;
+    }
+    20%{
+        left: 700px;
+    }
+    50%{
+        opacity: 100%;
+        left: 600px;
+    }
+    100%{
+        opacity: 0%;
+        left: 700px;
+    }
+}
+
