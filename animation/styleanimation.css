@@ -20,7 +20,7 @@
     left: 900px;
 
     animation-name: sol-animation;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-delay: 0s;
     animation-iteration-count: 10;
     animation-timing-function: ease;
@@ -47,7 +47,7 @@
     left: -900px;
 
     animation-name: nube;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-delay: 0s;
     animation-iteration-count: 10;
     animation-timing-function: ease;
