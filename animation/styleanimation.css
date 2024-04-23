@@ -10,6 +10,8 @@
 .fondo{
     width: 1920px;
 }
+
+
 .sol{
     width: 400px;
     
@@ -17,4 +19,25 @@
     left: 800px;
 
     animation-name: sol-animation;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes sol-animation{
+    0%{
+        opacity: 60%;
+        transform: rotate(360deg);
+    }
+    100%{
+        opacity: 70%;
+    }
+}
+
+.nube{
+    width: 10px;
+    
+    position: absolute;
+    left: 10px;
 }
